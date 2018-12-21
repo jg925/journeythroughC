@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 //Magic 8 ball with 21 different random phrases.
-
+//Uses if else statements, though switch statements also possible.
 int main(){
   srand(time(NULL));
   int answer = rand() % 20;
